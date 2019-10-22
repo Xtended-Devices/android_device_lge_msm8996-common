@@ -6,7 +6,9 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=9 \
     persist.radio.mode_pref_nv10=1 \
-    persist.radio.add_power_save=1
+    persist.radio.add_power_save=1 \
+    persist.sys.fflag.override.settings_network_and_internet_v2=true
+
 
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
